@@ -1,4 +1,3 @@
-
 ---
 - name: update web, nfs and db servers
   hosts: webservers, nfs, db
@@ -11,7 +10,7 @@
         name: wireshark
         state: latest
 
-- name: update lb server
+- name: update LB server
   hosts: lb
   remote_user: ubuntu
   become: yes
