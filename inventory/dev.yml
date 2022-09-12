@@ -9,4 +9,4 @@
 172.31.47.92 ansible_ssh_user='ec2-user' 
 
 [lb]
-172.31.34.162 ansible_ssh_user='ubuntu'eval `ssh-agent -s`
+172.31.34.162 ansible_ssh_user='ubuntu' nnnnnn
